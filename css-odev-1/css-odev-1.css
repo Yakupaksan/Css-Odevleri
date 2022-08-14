@@ -1,0 +1,57 @@
+/* Genel */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Hakkımızda */
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.basliklar > a{
+    margin: 0 10px;
+}
+
+.anasayfa-title{
+    margin-top: 30px;
+    color: purple;
+    font-size: 22px;
+}
+
+ul {
+    list-style-position: inside;
+    font-size: 18px;
+}
+
+.baslik{
+    color: red;
+    font-size: 24px;
+}
+
+/* Ürünlerimiz */
+
+.urunlerimiz-title{
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+ol {
+    list-style-position: inside;
+    font-size: 20px;
+}
+
+ol > li {
+    margin-bottom: 100px;
+}
+
+ol > li >p {
+    font-size: 16px;
+    margin-top: 7px;
+}
+
+.urunler{
+    width: 300px;
+}
